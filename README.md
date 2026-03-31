@@ -20,12 +20,6 @@ Hospital "bed-blocking" and delayed cleaning cycles often lead to ER bottlenecks
 ## 🚀 Live Demo
 You can view the live simulation here: **[https://aditya-gitzy.github.io/WardWatch-Live-Dashboard]**
 
-## 🔧 Installation
-Since this project uses pure Vanilla JS, there are no dependencies or build steps.
-1. Clone the repository: `git clone https://github.com/yourusername/WardWatch.git`
-2. Open `index.html` in your browser.
-3. Observe the "Live" badges—the simulation engine will start automatically.
-
 ## 💡 Engineering Highlights
 - **State Management:** Used a central data object to sync the Bed Grid, Sidebar Flags, and Admin View without a heavy framework like React.
 - **Simulation Logic:** Implemented `setInterval` loops with weighted probability to ensure the ward behaves like a real General Medicine department.
